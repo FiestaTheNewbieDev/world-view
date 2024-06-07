@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.bg-planet {
+  background-image: url('/wallpaper.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+div.faded-box {
+  background: linear-gradient(to bottom, transparent 10%, black);
+  height: 10vh;
+}
